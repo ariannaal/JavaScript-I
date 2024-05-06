@@ -24,15 +24,15 @@ console.log("Il mio nome è:", myName)
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
-let numero = 12
-let numero1 = 20
+const numero = 12
+const numero1 = 20
 console.log("La somma è:", numero + numero1);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
-let x = 12
+const x = 12
 console.log("La variabile x ha valore:", x) 
 
 /* ESERCIZIO 5
@@ -47,7 +47,7 @@ console.log("Il mio nome e cognome è:", myName + " " + mySurname)
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-let numero2 = 4
+const numero2 = 4
 console.log("La sottrazione è:", numero2 - x) 
 
 /* ESERCIZIO 7
@@ -56,8 +56,8 @@ console.log("La sottrazione è:", numero2 - x)
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-let name1 = "john"
-let name2 = "John" 
+const name1 = "john"
+const name2 = "John" 
 console.log("name1 è diverso da name2?", name1 === name2)
-console.log("name1 è uguale a name2?", name1.toLowerCase() === name2.toLowerCase())
+console.log("name1 è uguale da name2?", name1.toLowerCase() === name2.toLowerCase())
 
