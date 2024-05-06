@@ -40,13 +40,15 @@ console.log("La variabile x ha valore:", x)
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const mySurname = "Loreti"
+console.log("Il mio nome e cognome è:", myName + " " + mySurname)
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let numero2 = 4
+console.log("La sottrazione è:", numero2 - x) 
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -54,4 +56,8 @@ console.log("La variabile x ha valore:", x)
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let name1 = "john"
+let name2 = "John" 
+console.log("name1 è diverso da name2?", name1 === name2)
+console.log("name1 è uguale a name2?", name1.toLowerCase() === name2.toLowerCase())
+
